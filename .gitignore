@@ -123,4 +123,5 @@ soupday.cc3_unity_tools.project_runtime.csproj
 soupday.cc3_unity_tools.runtime.csproj
 Logs/
 Assets/_Recovery/
+Assets/_Recovery.meta
 Packages/io.livekit.livekit-sdk/
