@@ -5,6 +5,6 @@ public class ButtonHandler : MonoBehaviour
 {
     public void StartExperience()
     {
-        SceneManager.LoadScene("Wilhelm_Tell_V2");
+        SceneManager.LoadScene("Wilhelm_Tell_Scene");
     }
 }
