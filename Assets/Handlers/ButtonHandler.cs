@@ -7,4 +7,14 @@ public class ButtonHandler : MonoBehaviour
     {
         SceneManager.LoadScene("Wilhelm_Tell_Scene");
     }
+
+    public void ShowInformation()
+    {
+        SceneManager.LoadScene("Info");
+    }
+
+    public void GoBack()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
