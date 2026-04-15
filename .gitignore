@@ -116,12 +116,8 @@ Icon?
 ##########################
 Assets/Speechblend/
 Assets/Reallusion/
-Assets/Speechblend.meta
-Assets/Reallusion.meta
 soupday.cc3_unity_tools.editor.csproj
 soupday.cc3_unity_tools.project_runtime.csproj
 soupday.cc3_unity_tools.runtime.csproj
 Logs/
 Assets/_Recovery/
-Assets/_Recovery.meta
-Packages/io.livekit.livekit-sdk/
