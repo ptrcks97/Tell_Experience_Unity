@@ -81,8 +81,12 @@ public class LiveKitConnector : MonoBehaviour
         StartCoroutine(publishMicrophone());
         room.DataReceived += (data, participant, kind, topic) =>
         {
+            if (topic != "emotion")
+                return;
+                
             var json = Encoding.UTF8.GetString(data);
             Debug.Log("Emotion packet received: " + json);
+
             var emotionData = JsonUtility.FromJson<EmotionMessage>(json);
             Debug.Log("Current Emotion: " + emotionData.emotion);
 

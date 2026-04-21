@@ -50,7 +50,7 @@ public class Movement_Script : MonoBehaviour
         Array.Clear(samples, 0, samples.Length);
         if (talks && !wasTalking)
         {
-            emotion = UnityEngine.Random.Range(0, 2);
+            emotion = UnityEngine.Random.Range(0, 3);
             anim.SetBool("Speaking", talks);
             anim.SetInteger("emotion", emotion);
         }

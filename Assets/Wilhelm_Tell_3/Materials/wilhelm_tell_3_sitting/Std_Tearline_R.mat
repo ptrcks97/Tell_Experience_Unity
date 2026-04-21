@@ -52,13 +52,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _Alpha: 0
-    - _DepthOffset: 0.1
+    - _DepthOffset: -1
     - _DepthScale: 0.01
     - _DetailAmount: 0.029
-    - _InnerOffset: 0.001
+    - _InnerOffset: -1
     - _QueueControl: 1
     - _QueueOffset: 0
-    - _Smoothness: 0.897
+    - _Smoothness: 0
+    - _XRMotionVectorsPass: 1
     m_Colors:
     - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
     - _DetailTiling: {r: 1.5, g: 1.5, b: 0, a: 0}

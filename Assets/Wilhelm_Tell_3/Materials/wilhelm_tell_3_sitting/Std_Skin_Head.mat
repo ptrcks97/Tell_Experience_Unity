@@ -143,9 +143,9 @@ Material:
     - ENUM_WRINKLE_MODE: 1
     - _AOStrength: 1
     - _AScatterScale: 0.652
-    - _ASmoothnessMod: 0
+    - _ASmoothnessMod: -1.5
     - _BScatterScale: 0.62
-    - _BSmoothnessMod: 0.3
+    - _BSmoothnessMod: -1.5
     - _BumpStrength: 0
     - _CavityStrength: 1
     - _CheekScatterScale: 1
@@ -179,8 +179,8 @@ Material:
     - _SSSDistortion: 0.5
     - _SSSTransmission: 5
     - _SmoothnessContrast: 1.35
-    - _SmoothnessMax: 0.7764248
-    - _SmoothnessMin: 0.14999998
+    - _SmoothnessMax: 0.177
+    - _SmoothnessMin: 0
     - _SubsurfaceScale: 1.4025
     - _ThicknessScale: 0.9
     - _ThicknessScaleMin: 0.4
