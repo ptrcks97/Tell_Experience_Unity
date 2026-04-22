@@ -48,6 +48,7 @@ public class LiveKitConnector : MonoBehaviour
             participant_name = "testperson",
 
         };
+        room.ParticipantAttributesChanged += onParticipantAttributesChanged;
 
         string json = JsonConvert.SerializeObject(requestData);
         byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
@@ -173,6 +174,24 @@ public class LiveKitConnector : MonoBehaviour
     void OnDestroy()
     {
         Cleanup();
+    }
+
+    void onParticipantAttributesChanged(Participant participant)
+    {
+        if(participant.Attributes.TryGetValue("user_is_speaking", out var value))
+        {
+            Debug.Log("Value");
+            Debug.Log(value);
+            bool user_is_speaking = value == "true";
+            if (user_is_speaking)
+            {
+                Debug.Log("User is Speaking");
+            }
+            else
+            {
+                Debug.Log("User is not Speaking");
+            }
+        }
     }
 
     Task Cleanup()
