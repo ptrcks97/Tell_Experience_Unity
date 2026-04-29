@@ -171,10 +171,6 @@ public class LiveKitConnector : MonoBehaviour
     {
         Cleanup();
     }
-    void OnDestroy()
-    {
-        Cleanup();
-    }
 
     void onParticipantAttributesChanged(Participant participant)
     {
@@ -185,10 +181,12 @@ public class LiveKitConnector : MonoBehaviour
             bool user_is_speaking = value == "true";
             if (user_is_speaking)
             {
+                anim.SetBool("User_is_Speaking", true);
                 Debug.Log("User is Speaking");
             }
             else
             {
+                anim.SetBool("User_is_Speaking", false);
                 Debug.Log("User is not Speaking");
             }
         }
