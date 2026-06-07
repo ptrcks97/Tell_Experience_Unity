@@ -98,11 +98,11 @@ Material:
     - _AOOccludeAll: 0
     - _AOStrength: 1
     - _AlphaClip2: 0.666
-    - _AlphaContrast: 1
-    - _AlphaStrength: 1.3333334
+    - _AlphaContrast: 1.05
+    - _AlphaStrength: 0.781
     - _BaseColorStrength: 1
     - _BlendStrength: 0.84
-    - _DiffuseStrength: 1
+    - _DiffuseStrength: 2
     - _Displace: 0.0005
     - _ENUMCLIPQUALITY_ON: 2
     - _EndColorStrength: 1
@@ -119,8 +119,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RootColorStrength: 1
-    - _ShadowClip: 0.75
-    - _SmoothnessContrast: 1
+    - _ShadowClip: 0.629
+    - _SmoothnessContrast: 2
     - _SmoothnessMax: 0.75
     - _SmoothnessMin: 0
     - _SpecularMix: 0.65
@@ -133,15 +133,15 @@ Material:
     - _VertexColorStrength: 1
     - _XRMotionVectorsPass: 1
     m_Colors:
-    - _DiffuseColor: {r: 0.99999994, g: 0.99999994, b: 0.99999994, a: 1}
+    - _DiffuseColor: {r: 0.254717, g: 0.09255316, b: 0, a: 1}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
     - _EndColor: {r: 0.39503008, g: 0.3025538, b: 0.2297351, a: 1}
-    - _HighlightAColor: {r: 0.8616927, g: 0.72886246, b: 0.59244865, a: 1}
+    - _HighlightAColor: {r: 0.38679248, g: 0.19619909, b: 0, a: 1}
     - _HighlightADistribution: {r: 0, g: 0, b: 0.5202, a: 0}
-    - _HighlightBColor: {r: 0.8721031, g: 0.7262435, b: 0.6379926, a: 1}
+    - _HighlightBColor: {r: 0.20754719, g: 0.07739048, b: 0, a: 1}
     - _HighlightBDistribution: {r: 0.22900002, g: 0.3494, b: 0.41980004, a: 0}
     - _RootColor: {r: 0.3025538, g: 0.2402475, b: 0.2186491, a: 1}
-    - _SpecularTint: {r: 1, g: 0.92611265, b: 0.8810416, a: 1}
+    - _SpecularTint: {r: 0.4056604, g: 0.18631038, b: 0.05931826, a: 1}
     - _VertexBaseColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
