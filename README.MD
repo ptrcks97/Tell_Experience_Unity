@@ -41,10 +41,14 @@ These may need to be added manually:
 - Unity will automatically detect missing assets
 - Alternatively, they can be replaced with your own assets
 
+Once you've installed Speechblend, you'll need to link all Speechblend scripts to the corresponding blendshapes in the scene. They are all named the same.
+When setting up the Speechblend components, make sure to select the correct avatar properties (CC3 / CC4)
+
 ## Installation
 Open the project with Unity Hub and add all Third-Party assets in the Unity Package manager.
 
 ## Structure
+'''
 ASSETS
 ├───Behavior
 ├───Blender_Assets
@@ -206,6 +210,6 @@ ASSETS
 │   ├───Settings
 │   └───Settings 1
 └───_Recovery
-
+'''
 ## Notes
 This project is designed to work with a LiveKit Agent.
