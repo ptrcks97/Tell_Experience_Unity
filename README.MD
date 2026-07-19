@@ -46,7 +46,7 @@ When setting up the Speechblend components, make sure to select the correct avat
 
 ## Installation
 Open the project with Unity Hub and add all Third-Party assets in the Unity Package manager.
-
+Make sure to assign the correct shaders to the assets. For MetaQuest the mobile shader is recommended.
 ## Structure
 '''
 ASSETS
