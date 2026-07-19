@@ -47,8 +47,21 @@ When setting up the Speechblend components, make sure to select the correct avat
 ## Installation
 Open the project with Unity Hub and add all Third-Party assets in the Unity Package manager.
 Make sure to assign the correct shaders to the assets. For MetaQuest the mobile shader is recommended.
+
+To make sure all assets are beeing downloaded use Git LFS:
+
+### Installation LFS:
+```
+git lfs install
+```
+### Pull the Repository
+```
+git clone https://github.com/ptrcks97/Tell_Experience_Unity
+git lfs pull
+```
+
 ## Structure
-'''
+```
 ASSETS
 ├───Behavior
 ├───Blender_Assets
@@ -210,6 +223,6 @@ ASSETS
 │   ├───Settings
 │   └───Settings 1
 └───_Recovery
-'''
+```
 ## Notes
 This project is designed to work with a LiveKit Agent.
