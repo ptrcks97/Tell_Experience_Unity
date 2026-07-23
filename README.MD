@@ -33,8 +33,8 @@ The following assets are required but are not included in this repostory because
 |Asset|Required|Purpose|Notes|
 |-----|--------|-------|-----|
 |LiveKit Unity Client SDK - Own Version| Only for VR | Enables connection to the agent| A custom modification of the official Unity client was developed to support the Meta Quest's microphopne and replace the audio pipeline for lip-syncing. It can be cloned at: https://github.com/ptrcks97/Tell-Experience-client-sdk-unity|
-|SpeechBlend|Yes|Lip-sync functionality|Required for character speech animation|
-|Reallusion Unity Pipeline|Yes|Import tool for Character Creator Avatar|Required for shaders of ter avatar and must be imported manually|
+|SpeechBlend|Yes|Lip-sync functionality|Required for character speech animation. You can download it from the asset store: https://assetstore.unity.com/packages/tools/animation/speechblend-lipsync-149023?srsltid=AfmBOoqNmJ5nibeHXrrs3is3ureblZuIpGWiMOyl6Ll95gStGrcucYv6|
+|Reallusion Unity Pipeline|Yes|Import tool for Character Creator Avatar|Required for shaders of ter avatar and must be imported manually. You can download it from: https://www.reallusion.com/auto-setup/unity/default.html|
 
 Some large or licensed files have been intentionally excluded from this repository.
 These may need to be added manually:
